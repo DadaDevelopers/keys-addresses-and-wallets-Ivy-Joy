@@ -1,0 +1,190 @@
+===== Wallet & Node info =====
+Bitcoin Core RPC client version v30.99.0-d2987102dd13
+
+Creating/loading wallet 'wallet1'...
+error code: -4
+error message:
+Wallet file verification failed. Failed to create database path '/home/dministrator_joy/.bitcoin/regtest/wallets/wallet1'. Database already exists.
+
+===== getwalletinfo for wallet1 =====
+{
+  "walletname": "wallet1",
+  "walletversion": 169900,
+  "format": "sqlite",
+  "txcount": 0,
+  "keypoolsize": 3999,
+  "keypoolsize_hd_internal": 4000,
+  "paytxfee": 0.00000000,
+  "private_keys_enabled": true,
+  "avoid_reuse": false,
+  "scanning": false,
+  "descriptors": true,
+  "external_signer": false,
+  "blank": false,
+  "birthtime": 1760804465,
+  "flags": [
+    "last_hardened_xpub_cached",
+    "descriptor_wallet"
+  ],
+  "lastprocessedblock": {
+    "hash": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
+    "height": 0
+  }
+}
+
+===== listwallets =====
+[
+  "wallet1"
+]
+
+===== Legacy Address (getnewaddress "" legacy) =====
+mo79G9XedpsAi7M3c666YmvucXiP8TY58X
+
+getaddressinfo for legacy address:
+{
+  "address": "mo79G9XedpsAi7M3c666YmvucXiP8TY58X",
+  "scriptPubKey": "76a91453402d9759400bd0714d74650916f0e7b19582d888ac",
+  "ismine": true,
+  "solvable": true,
+  "desc": "pkh([2616021f/44h/1h/0h/0/0]02ae6a7a9c27f493e98a20371d933caec2c58ed82ed0e60b649a4a4b34df392646)#fd48m94e",
+  "parent_desc": "pkh([2616021f/44h/1h/0h]tpubDCekegvTddxJvN4aDUQxNCQTdFpV5BzQ5aPz13i44opgvioHAo65aVmQBaR5GW8Mbsnn6hZxDsDL3dZ3kJQdk7VVUKMAKScx3m6UMnUxPey/0/*)#ee05ndl4",
+  "iswatchonly": false,
+  "isscript": false,
+  "iswitness": false,
+  "pubkey": "02ae6a7a9c27f493e98a20371d933caec2c58ed82ed0e60b649a4a4b34df392646",
+  "iscompressed": true,
+  "ischange": false,
+  "timestamp": 1760804465,
+  "hdkeypath": "m/44h/1h/0h/0/0",
+  "hdseedid": "0000000000000000000000000000000000000000",
+  "hdmasterfingerprint": "2616021f",
+  "labels": [
+    ""
+  ]
+}
+
+===== Bech32 (SegWit v0) Address (getnewaddress "" bech32) =====
+bcrt1q848xq78knx7pht3rml56xk879qq3fqdeel3l2t
+
+getaddressinfo for bech32 address:
+{
+  "address": "bcrt1q848xq78knx7pht3rml56xk879qq3fqdeel3l2t",
+  "scriptPubKey": "00143d4e6078f699bc1bae23dfe9a358fe28011481b9",
+  "ismine": true,
+  "solvable": true,
+  "desc": "wpkh([2616021f/84h/1h/0h/0/1]03af8ca811c912fd555ddc867766ac6a9008fbb16074bb1a823c63d9322e63a2fb)#eggj4chm",
+  "parent_desc": "wpkh([2616021f/84h/1h/0h]tpubDDNDtpWep9XiVoF1XWFYyXGyP7gjFPcwEqbvi9Q5KDPAT3P5ct3CCYeXwq94VHCgFXoqPqEDFqdebrJ6qUUZsaCd1xSVpVsYSLxRT1mSaui/0/*)#luy6nfd0",
+  "iswatchonly": false,
+  "isscript": false,
+  "iswitness": true,
+  "witness_version": 0,
+  "witness_program": "3d4e6078f699bc1bae23dfe9a358fe28011481b9",
+  "pubkey": "03af8ca811c912fd555ddc867766ac6a9008fbb16074bb1a823c63d9322e63a2fb",
+  "ischange": false,
+  "timestamp": 1760804465,
+  "hdkeypath": "m/84h/1h/0h/0/1",
+  "hdseedid": "0000000000000000000000000000000000000000",
+  "hdmasterfingerprint": "2616021f",
+  "labels": [
+    ""
+  ]
+}
+
+===== Bech32m Address =====
+bcrt1pcdd56gmd8prufcas39x5gh0v694mxcw7nk8v66x0w75ces93r6dq8lra35
+
+getaddressinfo for bech32m:
+{
+  "address": "bcrt1pcdd56gmd8prufcas39x5gh0v694mxcw7nk8v66x0w75ces93r6dq8lra35",
+  "scriptPubKey": "5120c35b4d236d3847c4e3b0894d445decd16bb361de9d8ecd68cf77a98cc0b11e9a",
+  "ismine": true,
+  "solvable": true,
+  "desc": "tr([2616021f/86h/1h/0h/0/0]d6fc86f0f9839db5e9eb2dee190056c6da9643b95877b3b73f3e4b94c2df7946)#umwemyay",
+  "parent_desc": "tr([2616021f/86h/1h/0h]tpubDD9tS4r6CL5Sb4pCj4TM1Hsf2ekCASDfr8kBD9nUm45g2bfEsVxbky1r5L3xfGMaqyy2RWA968dedjzQ7uzSsJbiMpU2DAhKaRWhWgBXeeP/0/*)#ze3x0mp3",
+  "iswatchonly": false,
+  "isscript": true,
+  "iswitness": true,
+  "witness_version": 1,
+  "witness_program": "c35b4d236d3847c4e3b0894d445decd16bb361de9d8ecd68cf77a98cc0b11e9a",
+  "ischange": false,
+  "timestamp": 1760804465,
+  "hdkeypath": "m/86h/1h/0h/0/0",
+  "hdseedid": "0000000000000000000000000000000000000000",
+  "hdmasterfingerprint": "2616021f",
+  "labels": [
+    ""
+  ]
+}
+
+===== Deterministic derivation (3 bech32 addresses) =====
+addr1: bcrt1qf4kp42d2y690adwe9w2q9jqylzrjkdn57tfgkz
+{
+  "address": "bcrt1qf4kp42d2y690adwe9w2q9jqylzrjkdn57tfgkz",
+  "scriptPubKey": "00144d6c1aa9aa268afeb5d92b9402c804f8872b3674",
+  "ismine": true,
+  "solvable": true,
+  "desc": "wpkh([2616021f/84h/1h/0h/0/2]028641a44b83a51ea95e6953d57d507aaf88f6591012233042442b0176e0926694)#7s3sc6rc",
+  "parent_desc": "wpkh([2616021f/84h/1h/0h]tpubDDNDtpWep9XiVoF1XWFYyXGyP7gjFPcwEqbvi9Q5KDPAT3P5ct3CCYeXwq94VHCgFXoqPqEDFqdebrJ6qUUZsaCd1xSVpVsYSLxRT1mSaui/0/*)#luy6nfd0",
+  "iswatchonly": false,
+  "isscript": false,
+  "iswitness": true,
+  "witness_version": 0,
+  "witness_program": "4d6c1aa9aa268afeb5d92b9402c804f8872b3674",
+  "pubkey": "028641a44b83a51ea95e6953d57d507aaf88f6591012233042442b0176e0926694",
+  "ischange": false,
+  "timestamp": 1760804465,
+  "hdkeypath": "m/84h/1h/0h/0/2",
+  "hdseedid": "0000000000000000000000000000000000000000",
+  "hdmasterfingerprint": "2616021f",
+  "labels": [
+    ""
+  ]
+}
+addr2: bcrt1qcvq2s8zl9m786r58xscu0ermacmn7k0xyhqkq8
+{
+  "address": "bcrt1qcvq2s8zl9m786r58xscu0ermacmn7k0xyhqkq8",
+  "scriptPubKey": "0014c300a81c5f2efc7d0e873431c7e47bee373f59e6",
+  "ismine": true,
+  "solvable": true,
+  "desc": "wpkh([2616021f/84h/1h/0h/0/3]029cbe69eea7812f8eb4e08959e3b5f84e17ba93f519e288625d33d8e85c6057cb)#pfj7j7cw",
+  "parent_desc": "wpkh([2616021f/84h/1h/0h]tpubDDNDtpWep9XiVoF1XWFYyXGyP7gjFPcwEqbvi9Q5KDPAT3P5ct3CCYeXwq94VHCgFXoqPqEDFqdebrJ6qUUZsaCd1xSVpVsYSLxRT1mSaui/0/*)#luy6nfd0",
+  "iswatchonly": false,
+  "isscript": false,
+  "iswitness": true,
+  "witness_version": 0,
+  "witness_program": "c300a81c5f2efc7d0e873431c7e47bee373f59e6",
+  "pubkey": "029cbe69eea7812f8eb4e08959e3b5f84e17ba93f519e288625d33d8e85c6057cb",
+  "ischange": false,
+  "timestamp": 1760804465,
+  "hdkeypath": "m/84h/1h/0h/0/3",
+  "hdseedid": "0000000000000000000000000000000000000000",
+  "hdmasterfingerprint": "2616021f",
+  "labels": [
+    ""
+  ]
+}
+addr3: bcrt1qlaysetrrxpvv8s229cpk83vpyadvwrhf3kf0ke
+{
+  "address": "bcrt1qlaysetrrxpvv8s229cpk83vpyadvwrhf3kf0ke",
+  "scriptPubKey": "0014ff490cac633058c3c14a2e0363c581275ac70ee9",
+  "ismine": true,
+  "solvable": true,
+  "desc": "wpkh([2616021f/84h/1h/0h/0/4]03f41902953d77e52987a7118d70caf8d9664aad198d623dabbba22a792f86d1d5)#7zfy98lg",
+  "parent_desc": "wpkh([2616021f/84h/1h/0h]tpubDDNDtpWep9XiVoF1XWFYyXGyP7gjFPcwEqbvi9Q5KDPAT3P5ct3CCYeXwq94VHCgFXoqPqEDFqdebrJ6qUUZsaCd1xSVpVsYSLxRT1mSaui/0/*)#luy6nfd0",
+  "iswatchonly": false,
+  "isscript": false,
+  "iswitness": true,
+  "witness_version": 0,
+  "witness_program": "ff490cac633058c3c14a2e0363c581275ac70ee9",
+  "pubkey": "03f41902953d77e52987a7118d70caf8d9664aad198d623dabbba22a792f86d1d5",
+  "ischange": false,
+  "timestamp": 1760804465,
+  "hdkeypath": "m/84h/1h/0h/0/4",
+  "hdseedid": "0000000000000000000000000000000000000000",
+  "hdmasterfingerprint": "2616021f",
+  "labels": [
+    ""
+  ]
+}
+
+===== Completed at Sat Oct 18 16:37:27 UTC 2025 =====

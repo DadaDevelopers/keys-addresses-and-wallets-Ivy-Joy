@@ -1,0 +1,36 @@
+RPC ready
+LEGACY address: 
+--- getaddressinfo legacy ---
+error code: -5
+error message:
+Invalid checksum or length of Base58 address (P2PKH or P2SH)
+LEGACY address: 
+--- getaddressinfo legacy ---
+error code: -5
+error message:
+Invalid checksum or length of Base58 address (P2PKH or P2SH)
+LEGACY address: 
+--- getaddressinfo legacy ---
+error code: -5
+error message:
+Invalid checksum or length of Base58 address (P2PKH or P2SH)
+LEGACY address: 
+--- getaddressinfo legacy ---
+error code: -5
+error message:
+Invalid checksum or length of Base58 address (P2PKH or P2SH)
+LEGACY address: 
+--- getaddressinfo legacy ---
+error code: -5
+error message:
+Invalid checksum or length of Base58 address (P2PKH or P2SH)
+LEGACY address: 
+--- getaddressinfo legacy ---
+error code: -5
+error message:
+Invalid checksum or length of Base58 address (P2PKH or P2SH)
+LEGACY address: 
+--- getaddressinfo legacy ---
+error code: -5
+error message:
+Invalid checksum or length of Base58 address (P2PKH or P2SH)

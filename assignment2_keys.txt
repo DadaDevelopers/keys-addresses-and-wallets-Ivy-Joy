@@ -1,0 +1,35 @@
+LEGACY address: 
+--- dumpprivkey legacy ---
+error code: -32601
+error message:
+Method not found
+LEGACY address: 
+--- dumpprivkey legacy ---
+error code: -32601
+error message:
+Method not found
+LEGACY address: 
+--- dumpprivkey legacy ---
+error code: -32601
+error message:
+Method not found
+LEGACY address: 
+--- dumpprivkey legacy ---
+error code: -32601
+error message:
+Method not found
+LEGACY address: 
+--- dumpprivkey legacy ---
+error code: -32601
+error message:
+Method not found
+LEGACY address: 
+--- dumpprivkey legacy ---
+error code: -32601
+error message:
+Method not found
+LEGACY address: 
+--- dumpprivkey legacy ---
+error code: -32601
+error message:
+Method not found
